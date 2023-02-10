@@ -1,0 +1,234 @@
+/* Blockquote */
+
+.blockquote-note {
+  position: relative;
+  border:#a8da91 solid 1px;
+  border-left: #a8da91 solid 6px;
+  padding: 10px;
+  color: #a8da91
+}
+.blockquote-idea {
+  position: relative;
+  border:#d8b311 solid 1px;
+  border-left: #d8b311 solid 6px;
+  padding: 10px;
+  color: #d8b311
+}
+.blockquote-info {
+  position: relative;
+  border:#65d1ec solid 1px;
+  border-left: #65d1ec solid 6px;
+  padding: 10px;
+  color: #65d1ec
+}
+.blockquote-warn {
+  position: relative;
+  border:#ff7300 solid 1px;
+  border-left: #ff7300 solid 6px;
+  padding: 10px;
+  color: #ff7300;
+}
+.accent {
+  position: relative;
+  padding: 2px 6px 2px 6px;
+  background-color: #1f1f1f;
+  border-radius: 6px;
+  font-family: monospace;
+  font-size: 0.80em;
+  border: #ffffff2d solid 0.1px;
+}
+.blockquote-note .accent { border: #3d4938 solid 0.1px;}
+.blockquote-idea .accent { border: #574807 solid 0.1px;}
+.blockquote-info .accent { border: #1d3c44 solid 0.1px;}
+.blockquote-warn .accent { border: #581313 solid 0.1px;}
+
+/* Table One */
+
+.tbl-one {
+  font-weight: normal;
+  font-size: 0.9em;
+  border: none;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 100%;
+  white-space: nowrap;
+  background-color: white;
+}
+
+.tbl-one td, .tbl-one th {
+  text-align: center;
+  padding: 8px;
+}
+
+.tbl-one td {
+  border-right: 1px solid #f8f8f8;
+  font-family: monospace;
+}
+
+.tbl-one th {
+  color: #ffffff;
+  background: #4FC3A1;
+}
+
+th:nth-child(odd) {
+  color: #ffffff;
+  background: #324960;
+}
+
+.tbl-one tr:nth-child(even) {
+  background: #F8F8F8;
+}
+
+/* Table Two */
+
+.tbl-two {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tbl-two td, .tbl-two th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.tbl-two tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+/* Button */
+
+.btn-container {
+  padding: 5px 0 5px 0;
+}
+.btn-container-right {
+  text-align: right;
+  padding: 5px 0 5px 0;
+}
+.btn-container-left {
+  text-align: left;
+  padding: 5px 0 5px 0;
+}
+.btn {
+  color: #fff;
+  background-color: transparent;
+  outline: 0;
+  -moz-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+  font-family: 'Ubuntu', sans-serif;
+}
+.btn-right:not(first-child) {
+  margin-left: 1em;
+}
+.btn-left:not(last-child) {
+  margin-right: 1em;
+}
+.btn-round {
+  border: 0;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+  padding: 6px 22.5px 6px 22.5px;
+  font-size: 0.8em;
+}
+.btn-filled-grey {
+  background-color: #7f8c8d;
+}
+.btn-filled-grey:hover {
+  background-color: #667273;
+}
+.btn-filled-grey:active {
+  -moz-box-shadow: inset 0 0 100px #4e5758;
+  -webkit-box-shadow: inset 0 0 100px #4e5758;
+  box-shadow: inset 0 0 100px #4e5758;
+}
+.btn-ghost-grey {
+  border: 2px solid #7f8c8d;
+}
+.btn-ghost-grey:hover {
+  background-color: #7f8c8d;
+}
+.btn-ghost-grey:active {
+  background-color: #667273;
+}
+
+/* Miscellaneous */
+
+.indent {
+  margin-left:32px;
+}
+
+pre {
+  border: 1px solid #00796d52;
+  padding: 10px 10px 10px 20px;
+  margin: 5px 0 5px 0px;
+  font-family:'Courier New', Courier, monospace;
+}
+
+/* Header & Footer */
+
+.header {
+  position: relative;
+  height: 64px;
+  border-radius: 10px 10px 0 0;
+}
+.header-inner {
+  margin-top: 5px;
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.footer {
+  position: relative;
+  height: 132px;
+  border-radius: 0 0 10px 10px;
+  padding-bottom: 64px;
+}
+.footer-inner {
+  margin-top: 5px;
+  position: absolute;
+  top: 30%; left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+/* Avatar */
+
+.avatar {
+  position: relative;
+  overflow: hidden;
+}
+.avatar.S {
+  position: relative;
+  width: 28px; height: 28px;
+  overflow: hidden;
+}
+.avatar.M {
+  position: relative;
+  width: 48px; height: 48px;
+  overflow: hidden;
+}
+.avatar.L {
+  position: relative;
+  width: 64px; height: 64px;
+  overflow: hidden;
+}
+.avatar.XL {
+  position: relative;
+  width: 128px; height: 128px;
+  overflow: hidden;
+}
+.avatar.XXL {
+  position: relative;
+  width: 256px; height: 256px;
+  overflow: hidden;
+}
+
+.avatar.inline {
+  display: inline-block;
+  overflow: hidden
+}
