@@ -9,22 +9,51 @@
 		<link rel="icon" type="image/png" sizes="192x192" href="%sveltekit.assets%/images/favicons/favicon-192.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="%sveltekit.assets%/styles/grid.layout.css" />
-		<link rel="stylesheet" type="text/css" href="%sveltekit.assets%/styles/color.system.css" />
+		<link rel="stylesheet" type="text/css" href="%sveltekit.assets%/styles/color.theme.css" />
+		<link rel="stylesheet" type="text/css" href="%sveltekit.assets%/styles/theme.switcher.css" />
 		%sveltekit.head%
 		<style>
-			.sample {
-			  border-radius: 5px;
-			  padding: 16px; margin: 6px;
-			  font-size: 1em;
-			}
-			.sample-nest {
-			  border-radius: 5px;
-			  padding: 16px; margin: 6px;
-			  font-size: 1em;
-			}
+		.sample-1 {
+			border-radius: 5px;
+			padding: 16px; margin: 6px;
+			font-size: 1em;
+		}
+		.sample-2 {
+			border-radius: 16px;
+			padding: 4px 8px 4px 8px; margin: 3px;
+			font-size: 1em;
+		} 
+		.col {
+			text-align: center;
+		}
 		</style>
 	</head>
-	<body data-sveltekit-preload-data="hover">
+	<body data-theme="indigo-light" data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>
+    <!-- Switcher -->
+    <input type="radio" id="indigo-light" name="themes" value="indigo-light" checked>
+    <input type="radio" id="indigo-dark" name="themes" value="indigo-dark">
+    <input type="radio" id="purple-light" name="themes" value="purple-light">
+    <input type="radio" id="purple-dark" name="themes" value="purple-dark">
+    <div class="wrapper">
+      <div class="color-palette">
+        <label for="indigo-light"></label>
+        <label for="indigo-dark"></label>
+        <label for="purple-light"></label>
+        <label for="purple-dark"></label>
+      </div>
+    </div>
+    <script>
+      const htmlTag = document.getElementsByTagName("body")[0];
+      const templates = document.getElementsByName("themes");
+      for (let i = 0, max = templates.length; i < max; i++) {
+        templates[i].onclick = function () {
+        if (htmlTag.hasAttribute("data-theme")) {
+          htmlTag.removeAttribute("data-theme");
+          htmlTag.setAttribute("data-theme", this.id);
+        }
+        };
+      }
+    </script>
 	</body>
 </html>

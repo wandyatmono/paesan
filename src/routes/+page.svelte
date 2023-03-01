@@ -1,350 +1,134 @@
 <div class="row">
-  <div class="col s6">
-    <div class="sample light-membrane">
-      membrane
-    </div>
-    <div class="sample light-membrane-1">
-      membrane-1
-    </div>
-    <div class="sample light-membrane-2">
-      membrane-2
-    </div>
-    <div class="sample light-membrane-3">
-      membrane-3
-    </div>
-    <div class="sample light-membrane-4">
-      membrane-4
-    </div>
-    <div class="sample light-nucleus">
-      nuclues
-    </div>
-    <div class="sample light-nucleus-variant">
-      nuclues-variant
-    </div>
-    <div class="sample light-cytoplasm">
-      cytoplasm
-    </div>
-    <div class="sample light-cytoplasm-variant">
-      cytoplasm-variant
-    </div>
-    <div class="sample light-cytoplasm-base">
-      cytoplasm-base
-    </div>
-    <div class="sample light-cytoplasm-inner">
-      cytoplasm-inner
-    </div>
-    <div class="sample light-cytoplasm-instrument">
-      cytoplasm-instrument
-    </div>
-    <div class="sample light-cytoplasm-base-off">
-      cytoplasm-base-off
-    </div>
-    <div class="sample light-cytoplasm-inner-off">
-      cytoplasm-inner-off
-    </div>
-    <div class="sample light-cytoplasm-instrument-off">
-      cytoplasm-instrument-off
-    </div>
-    <div class="sample light-cytoplasm-disabled">
-      cytoplasm-disabled
-    </div>
-    <div class="sample light-cytoplasm-focus">
-      cytoplasm-focus
-    </div>
-    <div class="sample light-cytoplasm-variant-focus">
-      cytoplasm-variant-focus
-    </div>
-    <div class="sample light-cytoplasm-base-focus">
-      cytoplasm-base-focus
-    </div>
-    <div class="sample light-cytoplasm-link" style="background-color:#b0bec5;">
-      cytoplasm-link
-    </div>
-    <div class="sample light-cytoplasm-visited" style="background-color:#b0bec5;">
-      cytoplasm-visited
-    </div>
-    <div class="sample light-cytoplasm-hover" style="background-color:#b0bec5;">
-      cytoplasm-hover
-    </div>
-    <div class="sample light-cytoplasm-active" style="background-color:#b0bec5;">
-      cytoplasm-active
-    </div>
-    <div class="sample light-error">
-      error
-    </div>
-    <div class="row">
-      <div class="col s6">
-        <div class="sample red">
-          <div class="black-text" style="display:flex;">
-            red
-            <div class="white-text" style="margin-left:auto;">red</div>
-          </div>
-        </div>
-      </div>
-      <div class="col s6">
-        <div class="sample light-membrane red-text">red-text</div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col s6">
-        <div class="sample orange">
-          <div class="black-text" style="display:flex;">
-            orange
-            <div class="white-text" style="margin-left:auto;">orange</div>
-          </div>
-        </div>
-      </div>
-      <div class="col s6">
-        <div class="sample light-membrane orange-text">orange-text</div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col s6">
-        <div class="sample yellow">
-          <div class="black-text" style="display:flex;">
-            yellow
-            <div class="white-text" style="margin-left:auto;">yellow</div>
-          </div>
-        </div>
-      </div>
-      <div class="col s6">
-        <div class="sample light-membrane yellow-text">yellow-text</div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col s6">
-        <div class="sample green">
-          <div class="black-text" style="display:flex;">
-            green
-            <div class="white-text" style="margin-left:auto;">green</div>
-          </div>
-        </div>
-      </div>
-      <div class="col s6">
-        <div class="sample light-membrane green-text">green-text</div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col s6">
-        <div class="sample blue">
-          <div class="black-text" style="display:flex;">
-            blue
-            <div class="white-text" style="margin-left:auto;">blue</div>
-          </div>
-        </div>
-      </div>
-      <div class="col s6">
-        <div class="sample light-membrane blue-text">blue-text</div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col s6">
-        <div class="sample indigo">
-          <div class="black-text" style="display:flex;">
-            indigo
-            <div class="white-text" style="margin-left:auto;">indigo</div>
-          </div>
-        </div>
-      </div>
-      <div class="col s6">
-        <div class="sample light-membrane indigo-text">indigo-text</div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col s6">
-        <div class="sample purple">
-          <div class="black-text" style="display:flex;">
-            purple
-            <div class="white-text" style="margin-left:auto;">purple</div>
-          </div>
-        </div>
-      </div>
-      <div class="col s6">
-        <div class="sample light-membrane purple-text">purple-text</div>
-      </div>
-    </div>
-  </div>
-  <div class="col s6">
-    <div class="sample dark-membrane">
-      membrane
-    </div>
-    <div class="sample dark-membrane-1">
-      membrane-1
-    </div>
-    <div class="sample dark-membrane-2">
-      membrane-2
-    </div>
-    <div class="sample dark-membrane-3">
-      membrane-3
-    </div>
-    <div class="sample dark-membrane-4">
-      membrane-4
-    </div>
-    <div class="sample light-nucleus">
-      nuclues
-    </div>
-    <div class="sample dark-nucleus-variant">
-      nuclues-variant
-    </div>
-    <div class="sample dark-cytoplasm">
-      cytoplasm
-    </div>
-    <div class="sample dark-cytoplasm-variant">
-      cytoplasm-variant
-    </div>
-    <div class="sample dark-cytoplasm-base">
-      cytoplasm-base
-    </div>
-    <div class="sample dark-cytoplasm-inner">
-      cytoplasm-inner
-    </div>
-    <div class="sample dark-cytoplasm-instrument">
-      cytoplasm-instrument
-    </div>
-    <div class="sample dark-cytoplasm-base-off">
-      cytoplasm-base-off
-    </div>
-    <div class="sample dark-cytoplasm-inner-off">
-      cytoplasm-inner-off
-    </div>
-    <div class="sample dark-cytoplasm-instrument-off">
-      cytoplasm-instrument-off
-    </div>
-    <div class="sample dark-cytoplasm-disabled">
-      cytoplasm-disabled
-    </div>
-    <div class="sample dark-cytoplasm-focus">
-      cytoplasm-focus
-    </div>
-    <div class="sample dark-cytoplasm-variant-focus">
-      cytoplasm-variant-focus
-    </div>
-    <div class="sample dark-cytoplasm-base-focus">
-      cytoplasm-base-focus
-    </div>
-    <div class="sample dark-cytoplasm-link" style="background-color:#455a64;">
-      cytoplasm-link
-    </div>
-    <div class="sample dark-cytoplasm-visited" style="background-color:#455a64;">
-      cytoplasm-visited
-    </div>
-    <div class="sample dark-cytoplasm-hover" style="background-color:#455a64;">
-      cytoplasm-hover
-    </div>
-    <div class="sample dark-cytoplasm-active" style="background-color:#455a64;">
-      cytoplasm-active
-    </div>
-    <div class="sample dark-error">
-      error
-    </div>
-    <div class="row">
-      <div class="col s6">
-        <div class="sample red">
-          <div class="black-text" style="display:flex;">
-            red
-            <div class="white-text" style="margin-left:auto;">red</div>
-          </div>
-        </div>
-      </div>
-      <div class="col s6">
-        <div class="sample dark-membrane red-text">red-text</div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col s6">
-        <div class="sample orange">
-          <div class="black-text" style="display:flex;">
-            orange
-            <div class="white-text" style="margin-left:auto;">orange</div>
-          </div>
-        </div>
-      </div>
-      <div class="col s6">
-        <div class="sample dark-membrane orange-text">orange-text</div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col s6">
-        <div class="sample yellow">
-          <div class="black-text" style="display:flex;">
-            yellow
-            <div class="white-text" style="margin-left:auto;">yellow</div>
-          </div>
-        </div>
-      </div>
-      <div class="col s6">
-        <div class="sample dark-membrane yellow-text">yellow-text</div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col s6">
-        <div class="sample green">
-          <div class="black-text" style="display:flex;">
-            green
-            <div class="white-text" style="margin-left:auto;">green</div>
-          </div>
-        </div>
-      </div>
-      <div class="col s6">
-        <div class="sample dark-membrane green-text">green-text</div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col s6">
-        <div class="sample blue">
-          <div class="black-text" style="display:flex;">
-            blue
-            <div class="white-text" style="margin-left:auto;">blue</div>
-          </div>
-        </div>
-      </div>
-      <div class="col s6">
-        <div class="sample dark-membrane blue-text">blue-text</div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col s6">
-        <div class="sample indigo">
-          <div class="black-text" style="display:flex;">
-            indigo
-            <div class="white-text" style="margin-left:auto;">indigo</div>
-          </div>
-        </div>
-      </div>
-      <div class="col s6">
-        <div class="sample dark-membrane indigo-text">indigo-text</div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col s6">
-        <div class="sample purple">
-          <div class="black-text" style="display:flex;">
-            purple
-            <div class="white-text" style="margin-left:auto;">purple</div>
-          </div>
-        </div>
-      </div>
-      <div class="col s6">
-        <div class="sample dark-membrane purple-text">purple-text</div>
-      </div>
-    </div>
-  </div>
   <div class="col s12">
-    <div class="sample light-membrane-4">
-      <div class="black-text" style='display:flex;'>
-        black-text
-        <div class="white-text" style='margin-left: auto;'>
-          white-text
-        </div>
-      </div>
+    <div class="sample-1 membrane">
+      membrane
     </div>
   </div>
 </div>
-
-<style>
-  .sample {
-    border-radius: 5px;
-    padding: 16px; margin: 6px;
-    font-size: 1em;
-  }
-</style>
+<div class="row">
+  <div class="col s3">
+    <div class="sample-1 membrane-1">
+      membrane-1
+    </div>
+  </div>
+  <div class="col s3">
+    <div class="sample-1 membrane-2">
+      membrane-2
+    </div>
+  </div>
+  <div class="col s3">
+    <div class="sample-1 membrane-3">
+      membrane-3
+    </div>
+  </div>
+  <div class="col s3">
+    <div class="sample-1 membrane-4">
+      membrane-4
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col s3">
+    <div class="sample-1 nucleus">
+      nucleus
+    </div>
+  </div>
+  <div class="col s3">
+    <div class="sample-1 nucleus-variant">
+      nucleus-variant
+    </div>
+  </div>
+  <div class="col s3">
+    <div class="sample-1 nucleus-variant-focus">
+      nucleus-variant-focus
+    </div>
+  </div>
+  <div class="col s3">
+    <div class="sample-1 error">
+      error
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col s6">
+    <div class="sample-1 cytoplasm">
+      cytoplasm
+    </div>
+  </div>
+  <div class="col s6">
+    <div class="sample-1 cytoplasm-focus">
+      cytoplasm-focus
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col s4">
+    <div class="sample-1 cytoplasm-variant">
+      cytoplasm-variant
+    </div>
+  </div>
+  <div class="col s4">
+    <div class="sample-1 cytoplasm-variant-focus">
+      cytoplasm-variant-focus
+    </div>
+  </div>
+  <div class="col s4">
+    <div class="sample-1 nucleus-disabled">
+      cyto-nucleus-disabled
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col s12">
+    <div class="sample-1 membrane" style="display:flex; align-items: center; justify-content: center;">
+      <span class="sample-2 ribosome-red">
+        ribosome-red
+      </span>
+      <span class="sample-2 ribosome-orange">
+        ribosome-orange
+      </span>
+      <span class="sample-2 ribosome-yellow">
+        ribosome-yellow
+      </span>
+      <span class="sample-2 ribosome-green">
+        ribosome-green
+      </span>
+      <span class="sample-2 ribosome-blue">
+        ribosome-blue
+      </span>
+      <span class="sample-2 ribosome-indigo">
+        ribosome-indigo
+      </span>
+      <span class="sample-2 ribosome-purple">
+        ribosome-purple
+      </span>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col s12">
+    <div class="sample-1 membrane-4" style="display:flex; align-items: center; justify-content: center;">
+      <span class="sample-2 ribosome-red">
+        ribosome-red
+      </span>
+      <span class="sample-2 ribosome-orange">
+        ribosome-orange
+      </span>
+      <span class="sample-2 ribosome-yellow">
+        ribosome-yellow
+      </span>
+      <span class="sample-2 ribosome-green">
+        ribosome-green
+      </span>
+      <span class="sample-2 ribosome-blue">
+        ribosome-blue
+      </span>
+      <span class="sample-2 ribosome-indigo">
+        ribosome-indigo
+      </span>
+      <span class="sample-2 ribosome-purple">
+        ribosome-purple
+      </span>
+    </div>
+  </div>
+</div>
